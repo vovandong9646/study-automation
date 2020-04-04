@@ -1,0 +1,26 @@
+﻿<Window x:Class="AutoVoLamMobile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoVoLamMobile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <WrapPanel>
+        <Button Click="Button_Click_Stop" Width="525" Height="50">Stop</Button>
+        <Label HorizontalAlignment="Center" Width="525">Cường Hoá (từ màn hình chính)</Label>
+        <Button Click="Button_Click" HorizontalAlignment="Left" Width="58" Content="Vũ Khí"/>
+        <Button Click="Button_Click2">Nhẫn</Button>
+        <Button Click="Button_Click3">Ngọc bội</Button>
+        <Button Click="Button_Click4">Phù</Button>
+        <Button Click="Button_Click5">Nón</Button>
+        <Button Click="Button_Click6">Hộ Uyển</Button>
+        <Button Click="Button_Click7">Áo</Button>
+        <Button Click="Button_Click8">Đai</Button>
+        <Button Click="Button_Click9">Giày</Button>
+        <Button Click="Button_Click1">Dây Chuyền</Button>
+        <Button Click="Button_RungCayTien" Width="525" Margin="0 5 0 0">Rung cây tiền (từ màn hình chính)</Button>
+        <Button Click="Button_AutoCheTao" Width="525" Margin="0 5 0 0">Chế tạo trang bị (Chỉ click nhiều lần vào chữ chế tạo)</Button>
+        <Button Click="Button_Item_Use" Width="525" Margin="0 5 0 0">Click Những Item có chữ "Dùng"</Button>
+    </WrapPanel>
+</Window>

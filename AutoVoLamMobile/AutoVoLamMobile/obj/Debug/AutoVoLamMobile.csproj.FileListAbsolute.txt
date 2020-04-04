@@ -1,0 +1,16 @@
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\bin\Debug\AutoVoLamMobile.exe.config
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\bin\Debug\AutoVoLamMobile.exe
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\bin\Debug\AutoVoLamMobile.pdb
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\bin\Debug\KAutoHelper.dll
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\bin\Debug\Emgu.CV.World.dll
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile.csprojResolveAssemblyReference.cache
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\MainWindow.g.cs
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\App.g.cs
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile_MarkupCompile.cache
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile_MarkupCompile.lref
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\MainWindow.baml
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile.g.resources
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile.Properties.Resources.resources
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile.csproj.GenerateResource.Cache
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile.exe
+C:\Users\DongVV2\Desktop\auto\AutoVoLamMobile\AutoVoLamMobile\obj\Debug\AutoVoLamMobile.pdb
