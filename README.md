@@ -1,2 +1,2 @@
-# study-automation
-using C# for auto tool
+using gia lap MemuPlay
+set screen w800 x h500
