@@ -19,12 +19,14 @@ namespace EnrollUdemy
         Bitmap BTN_ENROLL;
         Bitmap BTN_ENROLL_NO_FEE;
         Bitmap SCREEN_SUCCESS;
+        Bitmap BTN_CHECKOUT_SCREEN;
         public Form1()
         {
             InitializeComponent();
             BTN_ENROLL = (Bitmap)Bitmap.FromFile("Data\\btnEnroll.png");
             SCREEN_SUCCESS = (Bitmap)Bitmap.FromFile("Data\\success.png");
             BTN_ENROLL_NO_FEE = (Bitmap)Bitmap.FromFile("Data\\btnEnroll_noFee.png");
+            BTN_CHECKOUT_SCREEN = (Bitmap)Bitmap.FromFile("Data\\btnCheckOutEnroll.png");
         }
 
         bool isStop = false;
@@ -121,7 +123,22 @@ namespace EnrollUdemy
                                 if (pointSuccess == null)
                                 {
                                     // nếu chưa ra màn hình sucess thì tiếp tục xử lý
-
+                                    // scroll chuột xuống xí để nó thấy được cái button enroll
+                                    KAutoHelper.ADBHelper.SwipeByPercent(deviceID, 48.25, 46.75, 48.25, 30);
+                                    Delay(1);
+                                    // scroll chuột xuống xí để nó thấy được cái button enroll
+                                    KAutoHelper.ADBHelper.SwipeByPercent(deviceID, 48.25, 46.75, 48.25, 30);
+                                    Delay(1);
+                                    // scroll chuột xuống xí để nó thấy được cái button enroll
+                                    KAutoHelper.ADBHelper.SwipeByPercent(deviceID, 48.25, 46.75, 48.25, 30);
+                                    Delay(2);
+                                    var checkoutScreen = KAutoHelper.ADBHelper.ScreenShoot(deviceID);
+                                    checkoutScreen.Save("checkoutScreen.png");
+                                    var pointBtnCheckOut = KAutoHelper.ImageScanOpenCV.FindOutPoint(checkoutScreen, BTN_CHECKOUT_SCREEN);
+                                    if(pointBtnCheckOut != null)
+                                    {
+                                        KAutoHelper.ADBHelper.Tap(deviceID, pointBtnCheckOut.Value.X, pointBtnCheckOut.Value.Y);
+                                    }
                                 }
                                 Delay(2);
                             } else
